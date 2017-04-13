@@ -1,0 +1,258 @@
+02:28:14.483 request_id=aktju2lnq75anvbahd2b05p8po4oqdj0 [error] index 
+02:28:14.582 request_id=aktju2lnq75anvbahd2b05p8po4oqdj0 [error] agni 
+02:28:25.060 request_id=7ru04lslstup1f1pno0vhq9mc2lsf1nd [error] index 
+02:28:25.062 request_id=7ru04lslstup1f1pno0vhq9mc2lsf1nd [error] agni 
+02:28:27.046 request_id=93n095vh6ihgjcrmqksi4mua3q8tl41c [error] index 
+02:28:27.157 [error] #PID<0.566.0> running Web.Endpoint terminated
+Server: localhost:40000 (http)
+Request: GET /api/users/
+** (exit) an exception was raised:
+    ** (Poison.EncodeError) unable to encode value: {nil, "users"}
+        (poison) lib/poison/encoder.ex:354: Poison.Encoder.Any.encode/2
+        (poison) lib/poison/encoder.ex:213: anonymous fn/4 in Poison.Encoder.Map.encode/3
+        (poison) lib/poison/encoder.ex:214: Poison.Encoder.Map."-encode/3-lists^foldl/2-0-"/3
+        (poison) lib/poison/encoder.ex:214: Poison.Encoder.Map.encode/3
+        (poison) lib/poison/encoder.ex:213: anonymous fn/4 in Poison.Encoder.Map.encode/3
+        (poison) lib/poison/encoder.ex:214: Poison.Encoder.Map."-encode/3-lists^foldl/2-0-"/3
+        (poison) lib/poison/encoder.ex:214: Poison.Encoder.Map.encode/3
+        (poison) lib/poison/encoder.ex:232: anonymous fn/3 in Poison.Encoder.List.encode/3
+        (poison) lib/poison/encoder.ex:233: Poison.Encoder.List."-encode/3-lists^foldr/2-1-"/3
+        (poison) lib/poison/encoder.ex:233: Poison.Encoder.List.encode/3
+        (poison) lib/poison.ex:41: Poison.encode!/2
+        (phoenix) lib/phoenix/controller.ex:646: Phoenix.Controller.do_render/4
+        (web) web/controllers/user_controller.ex:1: Web.UserController.action/2
+        (web) web/controllers/user_controller.ex:1: Web.UserController.phoenix_controller_pipeline/2
+        (web) lib/web/endpoint.ex:1: Web.Endpoint.instrument/4
+        (web) lib/phoenix/router.ex:261: Web.Router.dispatch/2
+        (web) web/router.ex:1: Web.Router.do_call/2
+        (web) lib/web/endpoint.ex:1: Web.Endpoint.phoenix_pipeline/1
+        (web) lib/plug/debugger.ex:123: Web.Endpoint."call (overridable 3)"/2
+        (web) lib/web/endpoint.ex:1: Web.Endpoint.call/2 
+02:29:53.046 request_id=k9nl6gmeb4c01rp147pie5c4l3e9nkdp [error] index 
+02:29:53.100 [error] #PID<0.574.0> running Web.Endpoint terminated
+Server: localhost:40000 (http)
+Request: GET /api/users/
+** (exit) an exception was raised:
+    ** (Poison.EncodeError) unable to encode value: {nil, "users"}
+        (poison) lib/poison/encoder.ex:354: Poison.Encoder.Any.encode/2
+        (poison) lib/poison/encoder.ex:213: anonymous fn/4 in Poison.Encoder.Map.encode/3
+        (poison) lib/poison/encoder.ex:214: Poison.Encoder.Map."-encode/3-lists^foldl/2-0-"/3
+        (poison) lib/poison/encoder.ex:214: Poison.Encoder.Map.encode/3
+        (poison) lib/poison/encoder.ex:213: anonymous fn/4 in Poison.Encoder.Map.encode/3
+        (poison) lib/poison/encoder.ex:214: Poison.Encoder.Map."-encode/3-lists^foldl/2-0-"/3
+        (poison) lib/poison/encoder.ex:214: Poison.Encoder.Map.encode/3
+        (poison) lib/poison/encoder.ex:232: anonymous fn/3 in Poison.Encoder.List.encode/3
+        (poison) lib/poison/encoder.ex:233: Poison.Encoder.List."-encode/3-lists^foldr/2-1-"/3
+        (poison) lib/poison/encoder.ex:233: Poison.Encoder.List.encode/3
+        (poison) lib/poison.ex:41: Poison.encode!/2
+        (phoenix) lib/phoenix/controller.ex:646: Phoenix.Controller.do_render/4
+        (web) web/controllers/user_controller.ex:1: Web.UserController.action/2
+        (web) web/controllers/user_controller.ex:1: Web.UserController.phoenix_controller_pipeline/2
+        (web) lib/web/endpoint.ex:1: Web.Endpoint.instrument/4
+        (web) lib/phoenix/router.ex:261: Web.Router.dispatch/2
+        (web) web/router.ex:1: Web.Router.do_call/2
+        (web) lib/web/endpoint.ex:1: Web.Endpoint.phoenix_pipeline/1
+        (web) lib/plug/debugger.ex:123: Web.Endpoint."call (overridable 3)"/2
+        (web) lib/web/endpoint.ex:1: Web.Endpoint.call/2 
+02:29:58.981 request_id=52v811ls683sjulo07o2s70vq6uau540 [error] index 
+02:29:58.982 request_id=52v811ls683sjulo07o2s70vq6uau540 [error] agni 
+02:31:57.959 request_id=n4b9s9rnm985blkkvgive5lq53qqah6t [error] index 
+02:31:57.981 [error] #PID<0.586.0> running Web.Endpoint terminated
+Server: localhost:40000 (http)
+Request: GET /api/users/
+** (exit) an exception was raised:
+    ** (Poison.EncodeError) unable to encode value: {nil, "users"}
+        (poison) lib/poison/encoder.ex:354: Poison.Encoder.Any.encode/2
+        (poison) lib/poison/encoder.ex:213: anonymous fn/4 in Poison.Encoder.Map.encode/3
+        (poison) lib/poison/encoder.ex:214: Poison.Encoder.Map."-encode/3-lists^foldl/2-0-"/3
+        (poison) lib/poison/encoder.ex:214: Poison.Encoder.Map.encode/3
+        (poison) lib/poison/encoder.ex:213: anonymous fn/4 in Poison.Encoder.Map.encode/3
+        (poison) lib/poison/encoder.ex:214: Poison.Encoder.Map."-encode/3-lists^foldl/2-0-"/3
+        (poison) lib/poison/encoder.ex:214: Poison.Encoder.Map.encode/3
+        (poison) lib/poison/encoder.ex:232: anonymous fn/3 in Poison.Encoder.List.encode/3
+        (poison) lib/poison/encoder.ex:233: Poison.Encoder.List."-encode/3-lists^foldr/2-1-"/3
+        (poison) lib/poison/encoder.ex:233: Poison.Encoder.List.encode/3
+        (poison) lib/poison.ex:41: Poison.encode!/2
+        (phoenix) lib/phoenix/controller.ex:646: Phoenix.Controller.do_render/4
+        (web) web/controllers/user_controller.ex:1: Web.UserController.action/2
+        (web) web/controllers/user_controller.ex:1: Web.UserController.phoenix_controller_pipeline/2
+        (web) lib/web/endpoint.ex:1: Web.Endpoint.instrument/4
+        (web) lib/phoenix/router.ex:261: Web.Router.dispatch/2
+        (web) web/router.ex:1: Web.Router.do_call/2
+        (web) lib/web/endpoint.ex:1: Web.Endpoint.phoenix_pipeline/1
+        (web) lib/plug/debugger.ex:123: Web.Endpoint."call (overridable 3)"/2
+        (web) lib/web/endpoint.ex:1: Web.Endpoint.call/2 
+02:32:38.429 request_id=veb0453qb070tne8r57q8ialtkm4e5ba [error] index 
+02:32:38.430 request_id=veb0453qb070tne8r57q8ialtkm4e5ba [error] agni 
+02:33:01.994 request_id=i5dml3blhhsstvdsk11dhsmip6jfin5p [error] show 
+02:33:01.995 request_id=i5dml3blhhsstvdsk11dhsmip6jfin5p [error] agni 
+02:33:02.054 [error] #PID<0.595.0> running Web.Endpoint terminated
+Server: localhost:40000 (http)
+Request: GET /api/users/1
+** (exit) an exception was raised:
+    ** (Protocol.UndefinedError) protocol String.Chars not implemented for %Web.User{__meta__: #Ecto.Schema.Metadata<:loaded, "users">, id: 1, inserted_at: ~N[2017-04-11 09:57:55.924110], name: "agni", updated_at: ~N[2017-04-11 09:57:55.954485]}
+        (elixir) lib/string/chars.ex:3: String.Chars.impl_for!/1
+        (elixir) lib/string/chars.ex:17: String.Chars.to_string/1
+        (logger) lib/logger.ex:644: Logger.truncate/2
+        (logger) lib/logger.ex:507: Logger.bare_log/3
+        (web) web/controllers/user_controller.ex:41: Web.UserController.show/2
+        (web) web/controllers/user_controller.ex:1: Web.UserController.action/2
+        (web) web/controllers/user_controller.ex:1: Web.UserController.phoenix_controller_pipeline/2
+        (web) lib/web/endpoint.ex:1: Web.Endpoint.instrument/4
+        (web) lib/phoenix/router.ex:261: Web.Router.dispatch/2
+        (web) web/router.ex:1: Web.Router.do_call/2
+        (web) lib/web/endpoint.ex:1: Web.Endpoint.phoenix_pipeline/1
+        (web) lib/plug/debugger.ex:123: Web.Endpoint."call (overridable 3)"/2
+        (web) lib/web/endpoint.ex:1: Web.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) /home/ubuntu/web/deps/cowboy/src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4 
+02:35:57.747 request_id=o6pvd24ttha5od79cge2i516qmlbubqi [error] show 
+02:35:57.749 request_id=o6pvd24ttha5od79cge2i516qmlbubqi [error] agni 
+02:35:57.749 request_id=o6pvd24ttha5od79cge2i516qmlbubqi [error] 1 
+02:36:30.684 request_id=k849d6if3sfcfhqd882s508dlmire3h1 [error] -------------------------------- 
+02:36:30.684 request_id=k849d6if3sfcfhqd882s508dlmire3h1 [error] -------------------------------- 
+02:36:30.684 request_id=k849d6if3sfcfhqd882s508dlmire3h1 [error] show 
+02:36:30.687 request_id=k849d6if3sfcfhqd882s508dlmire3h1 [error] agni 
+02:36:30.687 request_id=k849d6if3sfcfhqd882s508dlmire3h1 [error] 1 
+02:40:36.995 request_id=qp2sj6n103vld13l7ntsoeao7142tsra [error] index 
+02:40:37.019 [error] #PID<0.646.0> running Web.Endpoint terminated
+Server: localhost:40000 (http)
+Request: GET /api/users/
+** (exit) an exception was raised:
+    ** (Poison.EncodeError) unable to encode value: {nil, "users"}
+        (poison) lib/poison/encoder.ex:354: Poison.Encoder.Any.encode/2
+        (poison) lib/poison/encoder.ex:213: anonymous fn/4 in Poison.Encoder.Map.encode/3
+        (poison) lib/poison/encoder.ex:214: Poison.Encoder.Map."-encode/3-lists^foldl/2-0-"/3
+        (poison) lib/poison/encoder.ex:214: Poison.Encoder.Map.encode/3
+        (poison) lib/poison/encoder.ex:213: anonymous fn/4 in Poison.Encoder.Map.encode/3
+        (poison) lib/poison/encoder.ex:214: Poison.Encoder.Map."-encode/3-lists^foldl/2-0-"/3
+        (poison) lib/poison/encoder.ex:214: Poison.Encoder.Map.encode/3
+        (poison) lib/poison/encoder.ex:232: anonymous fn/3 in Poison.Encoder.List.encode/3
+        (poison) lib/poison/encoder.ex:233: Poison.Encoder.List."-encode/3-lists^foldr/2-1-"/3
+        (poison) lib/poison/encoder.ex:233: Poison.Encoder.List.encode/3
+        (poison) lib/poison.ex:41: Poison.encode!/2
+        (phoenix) lib/phoenix/controller.ex:646: Phoenix.Controller.do_render/4
+        (web) web/controllers/user_controller.ex:1: Web.UserController.action/2
+        (web) web/controllers/user_controller.ex:1: Web.UserController.phoenix_controller_pipeline/2
+        (web) lib/web/endpoint.ex:1: Web.Endpoint.instrument/4
+        (web) lib/phoenix/router.ex:261: Web.Router.dispatch/2
+        (web) web/router.ex:1: Web.Router.do_call/2
+        (web) lib/web/endpoint.ex:1: Web.Endpoint.phoenix_pipeline/1
+        (web) lib/plug/debugger.ex:123: Web.Endpoint."call (overridable 3)"/2
+        (web) lib/web/endpoint.ex:1: Web.Endpoint.call/2 
+03:14:15.777 request_id=7k64tfn7omnce82i5ev84j65p61c3mrf [error] ------------------------ 
+03:14:15.777 request_id=7k64tfn7omnce82i5ev84j65p61c3mrf [error] show 
+03:14:15.778 request_id=7k64tfn7omnce82i5ev84j65p61c3mrf [error] agni 
+03:14:15.778 request_id=7k64tfn7omnce82i5ev84j65p61c3mrf [error] 1 
+03:15:06.103 request_id=fdgcrt5kghhu8fodv7tht6hpsvno3mhp [error] index 
+03:15:06.135 [error] #PID<0.688.0> running Web.Endpoint terminated
+Server: localhost:40000 (http)
+Request: GET /api/users/
+** (exit) an exception was raised:
+    ** (Poison.EncodeError) unable to encode value: {nil, "users"}
+        (poison) lib/poison/encoder.ex:354: Poison.Encoder.Any.encode/2
+        (poison) lib/poison/encoder.ex:213: anonymous fn/4 in Poison.Encoder.Map.encode/3
+        (poison) lib/poison/encoder.ex:214: Poison.Encoder.Map."-encode/3-lists^foldl/2-0-"/3
+        (poison) lib/poison/encoder.ex:214: Poison.Encoder.Map.encode/3
+        (poison) lib/poison/encoder.ex:213: anonymous fn/4 in Poison.Encoder.Map.encode/3
+        (poison) lib/poison/encoder.ex:214: Poison.Encoder.Map."-encode/3-lists^foldl/2-0-"/3
+        (poison) lib/poison/encoder.ex:214: Poison.Encoder.Map.encode/3
+        (poison) lib/poison/encoder.ex:232: anonymous fn/3 in Poison.Encoder.List.encode/3
+        (poison) lib/poison/encoder.ex:233: Poison.Encoder.List."-encode/3-lists^foldr/2-1-"/3
+        (poison) lib/poison/encoder.ex:233: Poison.Encoder.List.encode/3
+        (poison) lib/poison.ex:41: Poison.encode!/2
+        (phoenix) lib/phoenix/controller.ex:646: Phoenix.Controller.do_render/4
+        (web) web/controllers/user_controller.ex:1: Web.UserController.action/2
+        (web) web/controllers/user_controller.ex:1: Web.UserController.phoenix_controller_pipeline/2
+        (web) lib/web/endpoint.ex:1: Web.Endpoint.instrument/4
+        (web) lib/phoenix/router.ex:261: Web.Router.dispatch/2
+        (web) web/router.ex:1: Web.Router.do_call/2
+        (web) lib/web/endpoint.ex:1: Web.Endpoint.phoenix_pipeline/1
+        (web) lib/plug/debugger.ex:123: Web.Endpoint."call (overridable 3)"/2
+        (web) lib/web/endpoint.ex:1: Web.Endpoint.call/2 
+03:23:56.466 request_id=ao1qdoecf170m41tc6e2cf86vvgorm4p [error] index 
+03:23:56.526 [error] #PID<0.699.0> running Web.Endpoint terminated
+Server: localhost:40000 (http)
+Request: GET /api/users/
+** (exit) an exception was raised:
+    ** (ArgumentError) argument error
+        :erlang.apply([%Web.User{__meta__: #Ecto.Schema.Metadata<:loaded, "users">, id: 1, inserted_at: ~N[2017-04-11 09:57:55.924110], name: "agni", updated_at: ~N[2017-04-11 09:57:55.954485]}, %Web.User{__meta__: #Ecto.Schema.Metadata<:loaded, "users">, id: 2, inserted_at: ~N[2017-04-11 10:02:00.034914], name: "agni", updated_at: ~N[2017-04-11 10:02:00.034920]}], :id, [])
+        (web) web/views/user_view.ex:14: Web.UserView.render/2
+        (web) web/views/user_view.ex:5: Web.UserView.render/2
+        (phoenix) lib/phoenix/view.ex:335: Phoenix.View.render_to_iodata/3
+        (phoenix) lib/phoenix/controller.ex:646: Phoenix.Controller.do_render/4
+        (web) web/controllers/user_controller.ex:1: Web.UserController.action/2
+        (web) web/controllers/user_controller.ex:1: Web.UserController.phoenix_controller_pipeline/2
+        (web) lib/web/endpoint.ex:1: Web.Endpoint.instrument/4
+        (web) lib/phoenix/router.ex:261: Web.Router.dispatch/2
+        (web) web/router.ex:1: Web.Router.do_call/2
+        (web) lib/web/endpoint.ex:1: Web.Endpoint.phoenix_pipeline/1
+        (web) lib/plug/debugger.ex:123: Web.Endpoint."call (overridable 3)"/2
+        (web) lib/web/endpoint.ex:1: Web.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) /home/ubuntu/web/deps/cowboy/src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4 
+03:24:54.035 request_id=h52rd5jck2dqhmuaut910jqs6i8b25ij [error] index 
+04:37:19.260 request_id=4ers7ps64tjkqh98ho6o16p4m9qu1af0 [error] index 
+04:37:19.301 [error] #PID<0.768.0> running Web.Endpoint terminated
+Server: localhost:40000 (http)
+Request: GET /api/users/
+** (exit) an exception was raised:
+    ** (Poison.EncodeError) unable to encode value: {nil, "users"}
+        (poison) lib/poison/encoder.ex:354: Poison.Encoder.Any.encode/2
+        (poison) lib/poison/encoder.ex:213: anonymous fn/4 in Poison.Encoder.Map.encode/3
+        (poison) lib/poison/encoder.ex:214: Poison.Encoder.Map."-encode/3-lists^foldl/2-0-"/3
+        (poison) lib/poison/encoder.ex:214: Poison.Encoder.Map.encode/3
+        (poison) lib/poison/encoder.ex:213: anonymous fn/4 in Poison.Encoder.Map.encode/3
+        (poison) lib/poison/encoder.ex:214: Poison.Encoder.Map."-encode/3-lists^foldl/2-0-"/3
+        (poison) lib/poison/encoder.ex:214: Poison.Encoder.Map.encode/3
+        (poison) lib/poison/encoder.ex:232: anonymous fn/3 in Poison.Encoder.List.encode/3
+        (poison) lib/poison/encoder.ex:233: Poison.Encoder.List."-encode/3-lists^foldr/2-1-"/3
+        (poison) lib/poison/encoder.ex:233: Poison.Encoder.List.encode/3
+        (poison) lib/poison.ex:41: Poison.encode!/2
+        (phoenix) lib/phoenix/controller.ex:646: Phoenix.Controller.do_render/4
+        (web) web/controllers/user_controller.ex:1: Web.UserController.action/2
+        (web) web/controllers/user_controller.ex:1: Web.UserController.phoenix_controller_pipeline/2
+        (web) lib/web/endpoint.ex:1: Web.Endpoint.instrument/4
+        (web) lib/phoenix/router.ex:261: Web.Router.dispatch/2
+        (web) web/router.ex:1: Web.Router.do_call/2
+        (web) lib/web/endpoint.ex:1: Web.Endpoint.phoenix_pipeline/1
+        (web) lib/plug/debugger.ex:123: Web.Endpoint."call (overridable 3)"/2
+        (web) lib/web/endpoint.ex:1: Web.Endpoint.call/2 
+05:49:23.149 request_id=ve9od1ekrm1oc62pgrd4f0r4mkq1hu46 [error] index 
+05:49:23.171 [error] #PID<0.822.0> running Web.Endpoint terminated
+Server: localhost:40000 (http)
+Request: GET /api/users/
+** (exit) an exception was raised:
+    ** (Poison.EncodeError) unable to encode value: {nil, "users"}
+        (poison) lib/poison/encoder.ex:354: Poison.Encoder.Any.encode/2
+        (poison) lib/poison/encoder.ex:213: anonymous fn/4 in Poison.Encoder.Map.encode/3
+        (poison) lib/poison/encoder.ex:214: Poison.Encoder.Map."-encode/3-lists^foldl/2-0-"/3
+        (poison) lib/poison/encoder.ex:214: Poison.Encoder.Map.encode/3
+        (poison) lib/poison/encoder.ex:213: anonymous fn/4 in Poison.Encoder.Map.encode/3
+        (poison) lib/poison/encoder.ex:214: Poison.Encoder.Map."-encode/3-lists^foldl/2-0-"/3
+        (poison) lib/poison/encoder.ex:214: Poison.Encoder.Map.encode/3
+        (poison) lib/poison/encoder.ex:232: anonymous fn/3 in Poison.Encoder.List.encode/3
+        (poison) lib/poison/encoder.ex:233: Poison.Encoder.List."-encode/3-lists^foldr/2-1-"/3
+        (poison) lib/poison/encoder.ex:233: Poison.Encoder.List.encode/3
+        (poison) lib/poison.ex:41: Poison.encode!/2
+        (phoenix) lib/phoenix/controller.ex:646: Phoenix.Controller.do_render/4
+        (web) web/controllers/user_controller.ex:1: Web.UserController.action/2
+        (web) web/controllers/user_controller.ex:1: Web.UserController.phoenix_controller_pipeline/2
+        (web) lib/web/endpoint.ex:1: Web.Endpoint.instrument/4
+        (web) lib/phoenix/router.ex:261: Web.Router.dispatch/2
+        (web) web/router.ex:1: Web.Router.do_call/2
+        (web) lib/web/endpoint.ex:1: Web.Endpoint.phoenix_pipeline/1
+        (web) lib/plug/debugger.ex:123: Web.Endpoint."call (overridable 3)"/2
+        (web) lib/web/endpoint.ex:1: Web.Endpoint.call/2 
+05:49:47.957 request_id=ohmmccvpqmt0upasrvn36oq18linnea3 [error] ------------------------ 
+05:49:47.957 request_id=ohmmccvpqmt0upasrvn36oq18linnea3 [error] show 
+05:49:47.958 request_id=ohmmccvpqmt0upasrvn36oq18linnea3 [error] agni 
+05:49:47.958 request_id=ohmmccvpqmt0upasrvn36oq18linnea3 [error] 1 
+05:50:05.529 request_id=tlikf44h3du6glp591hs8d52ouburhee [error] ------------------------ 
+05:50:05.529 request_id=tlikf44h3du6glp591hs8d52ouburhee [error] show 
+05:50:05.530 request_id=tlikf44h3du6glp591hs8d52ouburhee [error] agni 
+05:50:05.530 request_id=tlikf44h3du6glp591hs8d52ouburhee [error] 1 
+05:50:10.854 request_id=fro0vl14gv0716a8r9n92ugbdlc4vh7r [error] ------------------------ 
+05:50:10.854 request_id=fro0vl14gv0716a8r9n92ugbdlc4vh7r [error] show 
+05:50:10.854 request_id=fro0vl14gv0716a8r9n92ugbdlc4vh7r [error] agni 
+05:50:10.854 request_id=fro0vl14gv0716a8r9n92ugbdlc4vh7r [error] 1 
